@@ -1,0 +1,26 @@
+# /etc/conf.d/polariscoinnetworkd: config file for /etc/init.d/polariscoinnetworkd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/polariscoinnetwork/polariscoinnetwork.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/polariscoinnetworkd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/polariscoinnetworkd.pid"
+
+# Where to write polariscoinnetworkd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/polariscoinnetworkd"
+
+# User and group to own polariscoinnetworkd process
+#BITCOIND_USER="polariscoinnetwork"
+#BITCOIND_GROUP="polariscoinnetwork"
+
+# Path to polariscoinnetworkd executable
+#BITCOIND_BIN="/usr/bin/polariscoinnetworkd"
+
+# Nice value to run polariscoinnetworkd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
